@@ -1,4 +1,4 @@
-# Bank Marketing campaign Analysis
+# Bank Marketing Campaign Analysis
 ![](https://github.com/dansakoc/Image/blob/master/Bank%20image.jpg?raw=true)
 
 
