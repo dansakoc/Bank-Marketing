@@ -26,6 +26,7 @@ For a better view of the histograms, I added a log to some numerical variables.
 I added a new variable Age_Category to group the age into 3 categories: senior, adults, youth.
 
 
+
 ## Data Exploration
 The outcome variable shows 36548 clients responded no and 4640 responded yes which is respectively 89% negative answer and 11% positive answer.A low number of clients responded to a term deposit.
 
@@ -79,19 +80,22 @@ Clients with no loan, and no credit default subscribed more to a term deposit.
 2 Glm model
 
 3 Decision trees model 
+I have used the cratFolds function to create the train/test indexes.
+To make a fair comparison of the three modes I created a control parameter with the train cntrol.
+I run these three models and I use the AUC metric to evaluate each model. To compare the models, I plotted a dotplot, boxplot and density plot. The Summary of the models shows that the Random Forest AUC average is higher than the two other models AUC.
 
-To make a fair comparison of the three modes I created a control parameter.
-I run these three models and I use the ROC metric to evaluate each model. To compare the models, I plotted a dotplot, boxplot and density plot. The Summary of the models shows that the ROC of the Random Forest was higher than the two other models.
 
-
-#### Model comparison with boxplot 
+#### Model comparison with Box-and-whisker
 ![](https://github.com/dansakoc/Image/blob/master/Boxplot%20picture.png?raw=true)
 
-### Model comparison with dotplot
+### Model comparison with Dotplot
 ![](https://github.com/dansakoc/Image/blob/master/Dotplot%20picture.png?raw=true)
 
-### Model comparison with density plot
+### Model comparison with Density plot
 ![](https://github.com/dansakoc/Image/blob/master/Density%20plot.png?raw=true)
+
+
+This 3 plot show that random Forest as the highest AUC among this three models
 
 
 
