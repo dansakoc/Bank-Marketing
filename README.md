@@ -95,8 +95,6 @@ I run these three models and I use the AUC metric to evaluate each model. To com
 ![](https://github.com/dansakoc/Image/blob/master/Density%20plot.png?raw=true)
 
 
-This 3 plot show that random Forest as the highest AUC among this three models
-
 
 
 # Conclusion
